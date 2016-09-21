@@ -1,27 +1,26 @@
 {
-name: "column-background-fill",
-version: "2.0.2",
-title: "Column Background Fill",
-demo: [
-],
-author: {
-name: "Vadim Popa",
-url: "https://github.com/vadimpopa"
-},
-licenses: [
-{
-type: "MIT",
-url: "https://github.com/vadimpopa/column-background-fil/blob/master/LICENSE"
-}
-],
-description: "Highcharts plugin for creating background fills in column charts",
-keywords: [
-"background",
-"fill",
-"column",
-"bar"
-],
-dependencies: {
-Highcharts: ">=4.0.0"
-}
+  name: "column-background-fill",
+  version: "2.0.2",
+  title: "Column Background Fill",
+  demo: [],
+  author: {
+    name: "Vadim Popa",
+    url: "https://github.com/vadimpopa"
+  },
+  licenses: [
+    {
+      type: "MIT",
+      url: "https://github.com/vadimpopa/column-background-fil/blob/master/LICENSE"
+    }
+  ],
+  description: "Highcharts plugin for creating background fills in column charts",
+  keywords: [
+    "background",
+    "fill",
+    "column",
+    "bar"
+  ],
+  dependencies: {
+    Highcharts: ">=4.2.x"
+  }
 }
